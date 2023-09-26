@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .nav-item{
+    @apply p-2 font-mono
+  }
+  .nav-item a{
+    @apply p-2
+  }
+  .active{
+    @apply border-b-2 border-green-500
+  }
+
+}
+
+@layer base{
+  html{
+    @apply bg-black text-white
+  }
+}
+
