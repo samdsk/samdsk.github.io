@@ -16,21 +16,21 @@ export default function Nav() {
         <>  
             <div className='sticky w-full top-0 z-50 flex-wrap items-center justify-between'>
                 <nav className='flex flex-row items-center justify-between px-2'>
-                    <div className='text-lime-500'>
+                    <div className='text-white font-mono text-2xl'>
                         <Logo />
                     </div>
                     <div className='hidden sm:flex flex-row justify-between'>
                         <NavMenu/>
                     </div>
-                    <div className='sm:hidden'>
+                    <div className='sm:hidden mx-1 mt-1'>
                         <button onClick={toggleNavMenu}>
-                            {!isOpen ? <LuMenu size={20}/> : <LuX/>}
+                            {!isOpen ? <LuMenu size={30} color='white'/> : <LuX size={30} color='white'/>}
                         </button>
                     </div>
                 </nav>
                 {
                     isOpen && (
-                        <div className='sm:hidden flex basis-full flex-col items-center'>
+                        <div className='sm:hidden bg-gray-400/20 rounded-md backdrop-blur-sm w-1/2 h-screen right-0 absolute flex flex-col items-center justify-center'>
                             <NavMenu></NavMenu>
                         </div>
                     )
