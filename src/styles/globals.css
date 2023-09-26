@@ -4,13 +4,13 @@
 
 @layer components{
   .nav-item{
-    @apply p-2 
+    @apply p-2 font-mono
   }
   .nav-item a{
-    @apply p-2 backdrop-blur-sm bg-white/10 rounded-md  hover:bg-gradient-to-r from-cyan-500 to-blue-500
+    @apply p-2
   }
   .active{
-    @apply bg-gradient-to-r from-cyan-500 to-blue-500  rounded-md
+    @apply border-b-2 border-green-500
   }
 
 }
