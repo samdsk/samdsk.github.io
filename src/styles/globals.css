@@ -13,11 +13,31 @@
     @apply border-b-2 border-green-500
   }
 
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .toUpAnimation{
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  .anim-delay-200ms   { animation-delay: 0.2s }
+  .anim-delay-500ms  { animation-delay: 0.5s }
+  .anim-delay-700ms  { animation-delay: 0.7s }
+  .anim-delay-1000ms  { animation-delay: 1s }
+
 }
 
 @layer base{
   html{
-    @apply bg-black text-white
+    @apply bg-black text-white font-mono
   }
 }
 

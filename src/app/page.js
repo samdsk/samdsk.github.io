@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
     <Nav/>
-    <main className="flex flex-col min-h-screen items-center p-1">
+    <main className="min-h-screen p-1">
       <HomeSection/>
       <section id="about"  className=" bg-slate-950 min-h-screen min-w-full"> About me </section>
       <section id="projects" className=" bg-zinc-800 min-h-screen min-w-full"> Projects </section>
