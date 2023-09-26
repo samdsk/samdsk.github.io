@@ -14,7 +14,7 @@ export default function Nav() {
 
     return (
         <>  
-            <div className='sticky w-full top-0 z-50 flex-wrap items-center justify-between'>
+            <div className='sticky w-full bg-gradient-to-b from-blue-500 to-trasnperate top-0 z-50 flex-wrap items-center justify-between'>
                 <nav className='flex flex-row items-center justify-between px-2'>
                     <div className='text-white font-mono text-2xl'>
                         <Logo />
@@ -30,7 +30,7 @@ export default function Nav() {
                 </nav>
                 {
                     isOpen && (
-                        <div className='sm:hidden bg-gray-400/20 rounded-md backdrop-blur-sm w-1/2 h-screen right-0 absolute flex flex-col items-center justify-center'>
+                        <div className='sm:hidden bg-gradient-to-l from-blue-500 to-trasnperate rounded-md backdrop-blur-sm w-1/2 h-screen right-0 absolute flex flex-col items-center justify-center'>
                             <NavMenu></NavMenu>
                         </div>
                     )
