@@ -10,7 +10,11 @@
     @apply p-2
   }
   .active{
-    @apply border-b-2 border-green-500
+    @apply text-transparent font-bold bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600
+  }
+
+  .customeButton a:hover{
+    @apply text-black !important
   }
 
   @keyframes fadeIn {
