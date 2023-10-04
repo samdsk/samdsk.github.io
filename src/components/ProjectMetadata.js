@@ -1,12 +1,12 @@
 import ExportedImage from "next-image-export-optimizer";
 
-
-
-export default ({data}) => {
+const ProjectMetadata = ({data}) => {
+    
     return (
         <div key={data.id}>
             <h1>{data.title}</h1>
-            <ExportedImage src={data.cover} alt="cover-image" width={100} height={50}/>
+            <ExportedImage src={"images/"+data.cover} alt="cover-image" width={100} height={50}/>
+            <p>{data.description}</p>
             <ul className="list-disc">
                 {
                     data.tech.map( (t,index) => {
@@ -17,3 +17,5 @@ export default ({data}) => {
         </div>
     )
 }
+
+export default ProjectMetadata
