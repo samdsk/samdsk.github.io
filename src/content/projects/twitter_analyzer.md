@@ -10,3 +10,4 @@ tech:
     - Boostrap
 showInProjects: true
 ---
+A fullstack project which let you analyze public Twitter profiles.

@@ -10,7 +10,8 @@ tech:
     - PHPBB
     - MySQL
     - Boostrap
-    - JS
+    - JQuery
     - CSS
 showInProjects: true
 ---
+Fullstack Wordpress and PhpBB based web site.

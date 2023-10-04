@@ -8,6 +8,9 @@ tech:
     - PHP
     - JS
     - CSS
+    - MySql
     - Boostrap
 showInProjects: true
 ---
+
+A personal portfolio website with custom php based fullstack image/album uploader.
