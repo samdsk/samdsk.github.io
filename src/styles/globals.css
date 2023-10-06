@@ -37,6 +37,21 @@
   .anim-delay-700ms  { animation-delay: 0.7s }
   .anim-delay-1000ms  { animation-delay: 1s }
 
+  .image-tint:before{
+    content: "";
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    background-color: rgb(10, 25, 47);
+    transition: all .3s linear;
+  }
+
+  .image-tint:hover:before{
+    background: none;
+  }
+
 }
 
 @layer base{
