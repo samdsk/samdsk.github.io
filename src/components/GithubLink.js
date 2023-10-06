@@ -1,13 +1,11 @@
 import Link from "next/link"
 import { FaGithub } from 'react-icons/fa';
 
-const Github = ({classes,href}) => {
+const Github = ({className,href}) => {
     return (
-        <div className={classes} >
-            <Link href={href}>
-                <FaGithub className="hover:text-blue-300" size={25}></FaGithub>
-            </Link>
-        </div>
+        <Link className={className} href={href}>
+            <FaGithub size={25}></FaGithub>
+        </Link>
     )
 }
 

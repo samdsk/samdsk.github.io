@@ -1,5 +1,7 @@
 import ExportedImage from "next-image-export-optimizer";
 import Github from "./GithubLink";
+import Link from "next/link";
+import {FaLink} from "react-icons/fa"
 
 const ProjectMetadata = ({data}) => {
     
@@ -12,11 +14,17 @@ const ProjectMetadata = ({data}) => {
                 <ul className="flex flex-row flex-wrap">
                     {
                         data.tech.map( (t,index) => {
-                            return <li className="p-1 text-sm drop-shadow-md text-green-500" key={data.id+"-"+index}>{t}</li>
+                            return <li className="p-1 text-sm drop-shadow-md text-green-500" key={index}>{t}</li>
                         })
                     }
                 </ul>
-                <Github className="m-2" href={data.github}></Github>
+                <div className="flex flex-row space-x-3 mt-2 items-center">
+                    <Github className="hover:text-blue-200" href={data.github}></Github>
+                    <Link className="hover:text-blue-200" href={data.external}>
+                        <FaLink size={20}></FaLink>
+                    </Link>
+
+                </div>
             </div>
             <a className="relative group image-tint z-10 bg-cyan-400 max-h-[300px] overflow-hidden sm:col-start-6 sm:col-end-[-1] max-sm:col-start-1 max-sm:col-end-[-1] row-start-1 row-end-[-1]" href={data.external} target="_blank">
                 <ExportedImage className="w-full object-cover grayscale group-hover:grayscale-0 h-full object-center" src={"images/"+data.cover} alt="cover-image" width={600} height={600}/>
