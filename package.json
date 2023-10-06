@@ -6,13 +6,18 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "https-dev":"next dev --experimental-https"
   },
   "dependencies": {
+    "@mdx-js/loader": "^2.3.0",
+    "@mdx-js/react": "^2.3.0",
+    "@next/mdx": "^13.5.3",
     "autoprefixer": "10.4.16",
     "eslint": "8.50.0",
     "eslint-config-next": "13.5.2",
-    "next": "13.5.2",
+    "gray-matter": "^4.0.3",
+    "next": "^13.3.4",
     "next-image-export-optimizer": "^1.8.5",
     "postcss": "8.4.30",
     "react": "18.2.0",

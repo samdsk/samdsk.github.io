@@ -14,7 +14,7 @@ export default function Nav() {
 
     return (
         <>  
-            <div className='sticky w-full p-5 top-0 z-50 flex-wrap items-center justify-between'>
+            <div className='sticky w-full p-5 top-0 z-50 flex-wrap items-center justify-between bg-gray-950'>
                 <nav className='flex flex-row items-center justify-between px-2'>
                     <div className='text-white font-mono text-2xl'>
                         <Logo />
