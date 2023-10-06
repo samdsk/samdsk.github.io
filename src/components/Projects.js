@@ -38,14 +38,15 @@ export default function HomeSection() {
 
     return (
         <>
-            <section id="projects" className="h-auto w-screen flex flex-col items-center">
-                <div className="flex flex-col justify-center mx-auto m-auto w-10/12 bg-gray-500">
-                    <h1 className='text-4xl font-extrabold'>Projects</h1>
-                    <div>
+            <section id="projects" className="h-auto w-screen flex flex-col items-center md:px-5 xl:px-10 2xl:px-20">
+                <div className="flex flex-col justify-center m-auto w-10/12 lg:w-2/3">
+                    <h1 className='text-4xl font-extrabold mb-7'>Projects</h1>
+                    <div className='static flex flex-col justify-between items-center'>
                         {metadata.map( (data,index) => {
-                            return (
-                                <ProjectMetadata key={index} data={data}/>
-                            )
+                            if(data.showInProjects)
+                                return (
+                                    <ProjectMetadata key={index} data={data}/>
+                                )
                         })}
                     </div>
                 </div>

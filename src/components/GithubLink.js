@@ -1,9 +1,14 @@
-import Link from "@next/Link"
+import Link from "next/link"
 import { FaGithub } from 'react-icons/fa';
 
-
-export default ({href}) => {
-    return <Link href={href}>
-        <FaGithub></FaGithub>
-    </Link>
+const Github = ({classes,href}) => {
+    return (
+        <div className={classes} >
+            <Link href={href}>
+                <FaGithub className="hover:text-blue-300" size={25}></FaGithub>
+            </Link>
+        </div>
+    )
 }
+
+export default Github
