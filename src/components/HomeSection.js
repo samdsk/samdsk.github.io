@@ -8,7 +8,7 @@ export default function HomeSection() {
     return (
         <>
             <section id="home" className="min-h-screen mb-10 w-screen flex flex-col items-center">
-                <div className="flex flex-col justify-center mx-auto m-auto w-10/12 lg:w-2/3">
+                <div className="flex flex-col justify-center mx-auto w-10/12 lg:w-2/3">
                     <div className='p-5'>
                         <div className="my-2 ">
                             <h4 className="toUpAnimation anim-delay-200ms text-sm text-blue-500">Hello World! I am</h4>
