@@ -9,5 +9,6 @@ tech:
     - ExpressJs
     - Boostrap
 showInProjects: true
+featured: true
 ---
 A fullstack project which let you analyze public Twitter profiles.

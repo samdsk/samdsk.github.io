@@ -3,11 +3,11 @@ import React from 'react';
 import fs from "fs"
 import path from "path"
 import matter from 'gray-matter'
-import ProjectMetadata from './ProjectMetadata'
+import FeaturedProjects from './FeaturedProjects.js'
+import OtherProjects from './OtherPorjects.js'
 
 const PROJECTS_FOLDER = 'src/content/projects'
 const PROJECTS_ABS_PATH = path.join(process.cwd(), PROJECTS_FOLDER)
-
 
 function getProjects(){
     const files = fs.readdirSync(PROJECTS_ABS_PATH,'utf-8')
@@ -27,30 +27,27 @@ function getMetadata(filename){
         external: data.external,
         tech: data.tech,
         showInProjects: data.showInProjects,
-        description:content
+        description:content,
+        featured:data.featured
     }
 }
 
-export default function HomeSection() {
+const Projects = () => {
     const projects = getProjects()
     let metadata = projects.map( p => getMetadata(p))
     metadata.sort((a,b) => a.id - b.id)
-
+    metadata = metadata.filter(file => file.showInProjects) 
     return (
         <>
             <section id="projects" className="h-auto w-screen flex flex-col items-center md:px-5 xl:px-10 2xl:px-20">
-                <div className="flex flex-col justify-center m-auto w-10/12 lg:w-2/3">
+                <div id="featured-projects" className="flex flex-col justify-center m-auto w-10/12 lg:w-2/3">
                     <h1 className='text-4xl font-extrabold mb-7'>Projects</h1>
-                    <div className='static flex flex-col justify-between items-center'>
-                        {metadata.map( (data,index) => {
-                            if(data.showInProjects)
-                                return (
-                                    <ProjectMetadata key={index} data={data}/>
-                                )
-                        })}
-                    </div>
+                    <FeaturedProjects metadata={metadata}></FeaturedProjects>
+                    <OtherProjects metadata={metadata}></OtherProjects>
                 </div>
             </section>
         </>
     )
 }
+
+export default Projects

@@ -11,5 +11,6 @@ tech:
     - Js
     - CSS
 showInProjects: true
+featured: true
 ---
 Fullstack Wordpress and PhpBB based web site.

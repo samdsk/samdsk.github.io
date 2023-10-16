@@ -3,7 +3,7 @@ import Github from "./GithubLink";
 import Link from "next/link";
 import {FaLink} from "react-icons/fa"
 
-const ProjectMetadata = ({data}) => {
+const FeaturedProject = ({data}) => {
     
     return (
         <div key={data.id} className="container group relative grid grid-cols-12 max-sm:grid-cols-1 gap-2 mb-10">
@@ -34,4 +34,4 @@ const ProjectMetadata = ({data}) => {
     )
 }
 
-export default ProjectMetadata
+export default FeaturedProject

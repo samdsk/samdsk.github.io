@@ -8,5 +8,8 @@ tech:
     - HTML
     - CSS
     - JS
-showInProjects: false
+showInProjects: true
+featured : false
 ---
+
+un project non featured
