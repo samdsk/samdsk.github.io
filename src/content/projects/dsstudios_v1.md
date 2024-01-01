@@ -12,4 +12,4 @@ showInProjects: true
 featured : false
 ---
 
-un project non featured
+First web site that I had built.
