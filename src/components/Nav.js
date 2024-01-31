@@ -1,43 +1,23 @@
-'use client'
-import React, { useState } from 'react';
-import NavMenu from './NavMenu';
-import Logo from './Logo';
-import {LuMenu, LuX} from "react-icons/lu"
-
+"use client";
+import React from "react";
+import NavMenu from "./NavMenu";
+import Logo from "./Logo";
 
 export default function Nav() {
-    const [isOpen,setIsOpen] = useState(false)
 
-    const toggleNavMenu = ()=>{
-        setIsOpen(!isOpen)
-    }
 
-    return (
-        <>  
-            <div className='sticky w-full p-5 top-0 z-50 flex-wrap items-center justify-between bg-gray-950'>
-                <nav className='flex flex-row items-center justify-between px-2'>
-                    <div className='text-white font-mono text-2xl'>
-                        <Logo />
-                    </div>
-                    <div className='hidden sm:flex flex-row justify-between'>
-                        <NavMenu/>
-                    </div>
-                    <div className='sm:hidden mx-1 mt-1'>
-                        <button onClick={toggleNavMenu}>
-                            {!isOpen ? <LuMenu size={30} color='white'/> : <LuX size={30} color='white'/>}
-                        </button>
-                    </div>
-                </nav>
-                {
-                    isOpen && (
-                        <div className='sm:hidden rounded-md backdrop-blur-lg w-1/2 h-screen right-0 absolute flex flex-col items-center justify-center space-y-3'>
-                            <NavMenu></NavMenu>
-                        </div>
-                    )
-                }
-
-            </div>
-        </>
-        
-    )
+  return (
+    <>
+      <div className="sticky max-h-[10vh] w-full p-5 top-0 z-50 flex-wrap items-center justify-between bg-gray-950">
+        <nav className="flex flex-row items-center justify-between px-2">
+          <div className="text-white font-mono text-2xl">
+            <Logo />
+          </div>
+          <div className="flex flex-row justify-between">
+            <NavMenu />
+          </div>
+        </nav>
+      </div>
+    </>
+  );
 }

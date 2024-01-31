@@ -39,9 +39,10 @@ const Projects = () => {
     metadata = metadata.filter(file => file.showInProjects) 
     return (
         <>
-            <section id="projects" className="w-screen mb-5 flex flex-col items-center md:px-5 xl:px-10 2xl:px-20">
+            <section id="projects" className="w-screen mb-10 flex flex-row items-center md:px-5 xl:px-10 2xl:px-20">
                 <div id="featured-projects" className="flex flex-col justify-center m-auto w-10/12 lg:w-2/3">
-                    <h1 className='text-4xl font-extrabold mb-7'>Projects</h1>
+                    <h1 className='text-4xl font-sans font-bold sm:text-5xl md:text-6xl mb-7'>
+                        <span className='text-transparent bg-clip-text bg-gradient-to-r from-secondary-500 to-primary-500'>Projects</span></h1>
                     <FeaturedProjects metadata={metadata}></FeaturedProjects>
                     <OtherProjects metadata={metadata}></OtherProjects>
                 </div>
