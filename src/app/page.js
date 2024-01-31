@@ -2,6 +2,7 @@
 import Nav from "../components/Nav.js"
 import HomeSection from "../components/HomeSection.js"
 import Projects from "../components/Projects.js"
+import Contact from "../components/Contact.js"
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
     <main className="min-h-screen p-1">
       <HomeSection/>
       <Projects/>
-      <section id="contacts" className=" bg-gray-800 min-h-screen min-w-full"> Contacts </section>
+      <Contact/>
     </main>    
     </>
   )

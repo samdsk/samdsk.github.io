@@ -7,24 +7,25 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "https-dev":"next dev --experimental-https"
+    "https-dev": "next dev --experimental-https"
   },
   "dependencies": {
-    "@mdx-js/loader": "^2.3.0",
-    "@mdx-js/react": "^2.3.0",
-    "@next/mdx": "^13.5.3",
+    "@mdx-js/loader": "^3.0.0",
+    "@mdx-js/react": "^3.0.0",
+    "@next/mdx": "^14.0.4",
     "autoprefixer": "10.4.16",
-    "eslint": "8.50.0",
+    "eslint": "^8.56.0",
     "eslint-config-next": "13.5.2",
     "gray-matter": "^4.0.3",
-    "next": "^13.3.4",
+    "next": "^14.0.4",
     "next-image-export-optimizer": "^1.8.5",
-    "postcss": "8.4.30",
+    "postcss": "^8.4.32",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-google-recaptcha": "^3.1.0",
     "react-icons": "^4.11.0",
     "react-scroll": "^1.8.9",
     "react-scroll-parallax": "^3.4.2",
-    "tailwindcss": "3.3.3"
+    "tailwindcss": "^3.4.0"
   }
 }
