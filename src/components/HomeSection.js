@@ -1,8 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 'use client'
 import React from 'react';
-import ActiveNavItem from './ActiveNavItem';
-
+import Contact from "../components/Contact.js"
 
 export default function HomeSection() {
     return (
@@ -40,11 +39,6 @@ export default function HomeSection() {
                                     <li className='hover:text-cyan-300'>NextJS | React | Tailwind</li>                      
                                 </ul>
                             </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div className='hover:bg-slate-800 p-2 mt-2 ml-5 rounded-md border w-fit'>
-                            <ActiveNavItem  name="Contact" target="contacts"/>
                         </div>
                     </div>
                 </div>

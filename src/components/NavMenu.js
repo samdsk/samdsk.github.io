@@ -8,7 +8,7 @@ export default function NavMenu() {
         <>
             <ActiveNavItem name="Home" target="home"/>
             <ActiveNavItem name="Projects" target="projects"/>
-            <ActiveNavItem name="Contact" target="contacts"/>
+            <ActiveNavItem name="Contact" target="contact"/>
         </>
     )
 }
