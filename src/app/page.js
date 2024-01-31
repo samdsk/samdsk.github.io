@@ -1,9 +1,18 @@
 /* eslint-disable react/no-unescaped-entities */
+import Nav from "../components/Nav.js"
+import HomeSection from "../components/HomeSection.js"
+import Projects from "../components/Projects.js"
+import Contact from "../components/Contact.js"
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24">
-      <h1>Hello World! 👋</h1>
-      <h2>I'm Sam 😎, I love coding. 💻</h2>
-    </main>
+    <>
+    <Nav/>
+    <main className="min-h-screen p-1">
+      <HomeSection/>
+      <Projects/>
+      <Contact/>
+    </main>    
+    </>
   )
 }
