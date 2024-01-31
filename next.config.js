@@ -33,7 +33,7 @@ const nextConfig = {
     // `placeholder="empty"` to all <ExportedImage> components.
     nextImageExportOptimizer_generateAndUseBlurImages: "true",
     },
-    output: "export"
+    output: 'export'
 }
 
 module.exports = withMDX(nextConfig)
