@@ -15,7 +15,7 @@ const FeaturedProject = ({data}) => {
                         }
 
                         {data.external != null &&
-                            <Link className="hover:text-accent-400" href={data.external}>
+                            <Link className="hover:text-accent-400" href={data.external} target="_blank">
                                 <FaLink size={20}></FaLink>
                             </Link>
                         }
