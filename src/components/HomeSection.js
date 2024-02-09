@@ -16,7 +16,7 @@ export default function HomeSection() {
           <div className="px-5">
             <div className="my-2 ">
               <h4 className="toUpAnimation anim-delay-200ms text-sm text-gray-200">
-                Hello World! I am
+                Hello World 🖖, I am
               </h4>
               <h1 className="toUpAnimation anim-delay-500ms text-4xl sm:text-7xl font-sans font-bold w-full">
                 <span
@@ -33,7 +33,7 @@ export default function HomeSection() {
                 </span>
               </h1>
               <h4 className="toUpAnimation anim-delay-700ms text-2xl md:text-4xl font-bold text-gray-200 w-auto ">
-                I love exploring and learning new things
+                I love exploring and learning new things.
               </h4>
             </div>
             <div className="toUpAnimation anim-delay-700ms mt-2">
@@ -50,7 +50,7 @@ export default function HomeSection() {
             <div className="mt-5 toUpAnimation anim-delay-1000ms">
               <h3>
                 Here is a list of technologies that I've been working with
-                recently
+                recently:
               </h3>
               <div className="flex flex-row space-x-10">
                 <ul

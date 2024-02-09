@@ -20,7 +20,7 @@ const FeaturedProject = ({data}) => {
                 </ul>
                 <div className="flex flex-row space-x-3 mt-2 items-center">
                     <Github className="hover:text-accent-400" href={data.github}></Github>
-                    <Link className="hover:text-accent-400" href={data.external}>
+                    <Link className="hover:text-accent-400" href={data.external} target="_blank">
                         <FaLink size={20}></FaLink>
                     </Link>
 
