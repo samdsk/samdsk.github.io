@@ -1,6 +1,8 @@
 {
   "name": "samdsk.github.io",
-  "version": "0.1.0",
+  "version": "1.03v",
+  "url": "https://samdsk.github.io/",
+  "author": "Sam. K. <samk.github@gmail.com> (https://samdsk.github.io/)",
   "private": true,
   "scripts": {
     "dev": "next dev",
