@@ -72,6 +72,7 @@ export default function HomeSection() {
                   </li>
                 </ul>
               </div>
+                <sub className="text-slate-700">* working on</sub>
             </div>
           </div>
         </div>
