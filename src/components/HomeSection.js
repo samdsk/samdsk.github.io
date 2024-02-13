@@ -52,23 +52,19 @@ export default function HomeSection() {
                 Here is a list of technologies that I've been working with
                 recently:
               </h3>
-              <div className="flex flex-row space-x-10">
+              <div className="flex flex-row mt-2">
                 <ul
                   role="list"
-                  className="marker:text-indigo-400 list-outside list-disc ml-10"
+                  className="marker:text-indigo-400 list-outside list-disc ml-10 grid grid-cols-2 max-md:grid-cols-1 gap-x-10"
                 >
                   <li className="hover:text-accent-400">Java | Spring<sup>*</sup></li>
                   <li className="hover:text-accent-400">JUnit | Mockito</li>
+                  <li className="hover:text-accent-400">C | ASM x64</li>
                   <li className="hover:text-accent-400">
                     PostgresSQL | MongoDB
                   </li>
                   <li className="hover:text-accent-400">Erlang</li>
                   <li className="hover:text-accent-400">Python</li>
-                </ul>
-                <ul
-                  role="list"
-                  className="marker:text-indigo-400 list-outside list-disc ml-10"
-                >
                   <li className="hover:text-accent-400">
                     Node JS | Express JS
                   </li>
@@ -77,6 +73,7 @@ export default function HomeSection() {
                   </li>
                 </ul>
               </div>
+                <sub className="text-slate-700">* working on</sub>
             </div>
           </div>
         </div>
