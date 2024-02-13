@@ -59,6 +59,7 @@ export default function HomeSection() {
                 >
                   <li className="hover:text-accent-400">Java | Spring<sup>*</sup></li>
                   <li className="hover:text-accent-400">JUnit | Mockito</li>
+                  <li className="hover:text-accent-400">C | ASM x64</li>
                   <li className="hover:text-accent-400">
                     PostgresSQL | MongoDB
                   </li>
