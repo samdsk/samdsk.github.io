@@ -73,7 +73,7 @@ export default function HomeSection() {
                   </li>
                 </ul>
               </div>
-                <sub className="text-slate-700">* working on</sub>
+                <sub className="text-slate-700">* learning</sub>
             </div>
           </div>
         </div>
