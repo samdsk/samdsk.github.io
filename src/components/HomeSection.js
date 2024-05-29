@@ -38,7 +38,7 @@ export default function HomeSection() {
             </div>
             <div className="toUpAnimation anim-delay-700ms mt-2">
               <p className="w-auto sm:w-3/4 ">
-                I’m a software developer from Italy. I’m keen on back-end
+                Aspiring software developer from Italy. I’m keen on back-end
                 development.
               </p>
             </div>
@@ -57,7 +57,9 @@ export default function HomeSection() {
                   role="list"
                   className="marker:text-indigo-400 list-outside list-disc ml-10 grid grid-cols-2 max-md:grid-cols-1 gap-x-10"
                 >
-                  <li className="hover:text-accent-400">Java | Spring<sup>*</sup></li>
+                  <li className="hover:text-accent-400">
+                    Java | Spring<sup>*</sup>
+                  </li>
                   <li className="hover:text-accent-400">JUnit | Mockito</li>
                   <li className="hover:text-accent-400">C | ASM x64</li>
                   <li className="hover:text-accent-400">
@@ -73,7 +75,7 @@ export default function HomeSection() {
                   </li>
                 </ul>
               </div>
-                <sub className="text-slate-700">* learning</sub>
+              <sub className="text-slate-700">* learning</sub>
             </div>
           </div>
         </div>
