@@ -38,8 +38,8 @@ export default function HomeSection() {
             </div>
             <div className="toUpAnimation anim-delay-700ms mt-2">
               <p className="w-auto sm:w-3/4 ">
-                Aspiring software developer from Italy. I’m keen on back-end
-                development.
+                Aspiring software engineer from Italy with a keen interest in
+                back-end development.
               </p>
             </div>
             <div className="toUpAnimation anim-delay-700ms mt-2">
@@ -63,7 +63,7 @@ export default function HomeSection() {
                   <li className="hover:text-accent-400">JUnit | Mockito</li>
                   <li className="hover:text-accent-400">C | ASM x64</li>
                   <li className="hover:text-accent-400">
-                    PostgresSQL | MongoDB
+                    Couchbase | PostgresSQL | MongoDB
                   </li>
                   <li className="hover:text-accent-400">Erlang</li>
                   <li className="hover:text-accent-400">Python</li>
