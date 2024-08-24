@@ -32,13 +32,10 @@ export default function HomeSection() {
                   {k ? "Kaluwaduge" : "K."}
                 </span>
               </h1>
-              <h4 className="toUpAnimation anim-delay-700ms text-2xl md:text-4xl font-bold text-gray-200 w-auto ">
-                I love exploring and learning new things.
-              </h4>
             </div>
             <div className="toUpAnimation anim-delay-700ms mt-2">
               <p className="w-auto sm:w-3/4 ">
-                Aspiring software engineer from Italy with a keen interest in
+                An aspiring software engineer from Italy with a keen interest in
                 back-end development.
               </p>
             </div>
