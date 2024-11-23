@@ -11,7 +11,7 @@ tech:
     - MySql
     - Boostrap
 showInProjects: true
-featured: true
+featured: false
 ---
 
 A personal portfolio website with custom php based fullstack image/album uploader.
