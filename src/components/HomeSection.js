@@ -20,13 +20,13 @@ export default function HomeSection() {
                             </h4>
                             <h1 className="toUpAnimation anim-delay-500ms text-4xl sm:text-7xl font-sans font-bold w-full">
           <span
-              className="hover:text-accent-400 active"
+              className="hover:text-accent-400 active cursor-pointer"
               onClick={() => setSamState(!sam)}
           >
             {sam ? "Sameera" : "Sam."}{" "}
           </span>
                                 <span
-                                    className="hover:text-accent-400 active"
+                                    className="hover:text-accent-400 active cursor-pointer"
                                     onClick={() => setKState(!k)}
                                 >
             {k ? "Kaluwaduge" : "K."}
