@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
     <Nav/>
-    <main className="min-h-screen">
+    <main className="min-h-screen cursor-default">
       <HomeSection/>
       <Projects/>
       <Contact/>
