@@ -1,0 +1,1 @@
+[![Deploy Next.js site to Pages](https://github.com/samdsk/samdsk.github.io/actions/workflows/nextjs.yml/badge.svg?branch=main)](https://github.com/samdsk/samdsk.github.io/actions/workflows/nextjs.yml)
