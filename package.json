@@ -1,8 +1,8 @@
 {
   "name": "samdsk.github.io",
-  "version": "1.08v",
-  "url": "https://samdsk.github.io/",
-  "author": "Sam. K. <samk.github@gmail.com> (https://samdsk.github.io/)",
+  "version": "1.09v",
+  "url": "https://kaluwaduge.com/",
+  "author": "Sam. K. <samk.github@gmail.com> (https://kaluwaduge.com/)",
   "private": true,
   "scripts": {
     "dev": "next dev",
