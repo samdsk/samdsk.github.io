@@ -1,5 +1,5 @@
 ---
-id: '5'
+id: '6'
 title: 'S-DES 4 Round Attack'
 github: 'https://github.com/samdsk/lab-critto1'
 tech:

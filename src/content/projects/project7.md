@@ -1,5 +1,5 @@
 ---
-id: '7'
+id: '8'
 title: 'Daily Leetcode'
 github: 'https://github.com/samdsk/daily_leetcode'
 external: 'https://leetcode.com/samdsk/'
