@@ -35,13 +35,14 @@ export default function HomeSection() {
                         </div>
                         <div className="toUpAnimation anim-delay-700ms mt-2">
                             <p className="w-auto">
-                                An aspiring software engineer from Italy with a keen interest in
-                                back-end development.
+                                Software Engineer from Italy focused on backend development and scalable systems.
+                                <br/>
+                                By day I debug services and by night I debug constellations.
                             </p>
                         </div>
                         <div className="toUpAnimation anim-delay-700ms mt-2">
                             <p className="w-auto">
-                                When I don’t code I like to hike, stargaze, and play video games.
+                                When I’m not coding, I’m hiking, stargazing, or chasing a new high score.
                             </p>
                         </div>
                         <div className="mt-5 toUpAnimation anim-delay-1000ms">
@@ -54,7 +55,7 @@ export default function HomeSection() {
                                     className="marker:text-indigo-400 list-outside list-disc ml-10 grid grid-cols-2 max-md:grid-cols-1 gap-x-10"
                                 >
                                     <li className="hover:text-accent-400">
-                                        Java | Spring<sup>*</sup>
+                                        Java | Spring
                                     </li>
                                     <li className="hover:text-accent-400">JUnit | Mockito</li>
                                     <li className="hover:text-accent-400">C | ASM x64</li>
